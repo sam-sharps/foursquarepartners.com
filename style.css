@@ -1,0 +1,170 @@
+/* 
+
+	project:  foursquare partners re design
+
+	
+*/
+
+
+
+*{ margin: 0; padding: 0; }* 
+
+body { 
+
+	font: .75em "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+
+	line-height: 1.6em;
+
+	background: #fff;
+
+	color: #444; 
+
+}
+
+
+
+a {	color: #E60000;	background: inherit; text-decoration: none; }
+
+a:hover { color: #AA0001; background: inherit; text-decoration: ; }
+
+p { margin: 0 0 15px 0; }
+
+h1 {  margin: 20px 0 0; }
+
+h1 a { background: inherit; }
+
+img { border: 0; }
+
+h2 { font: normal 1.8em "Trebuchet MS", Arial, Sans-Serif; margin: 0 0 12px; }
+
+h3 a { font-size: 1em; }
+
+#main h3 a { font-size: .84em; color: #808080; font-weight: normal; text-transform: uppercase; }
+
+
+
+#content { width: 940px; margin: 0 auto; padding: 20px 0 0 0; border-top: 5px solid #eee; }
+
+
+
+#top{ float: right; text-align: right;  }
+
+#top a { color: #808080; margin: 0 0 0 13px; background: #fff url no-repeat center left; padding: 0 0 0 12px; }
+
+
+#line_archive { clear: both; padding: 3px; margin: 0 0 15px; background: #fff url(images/smalldot.gif) repeat-x; }
+
+
+#logo { float: left; color: #000000; line-height: 25px; }
+	#quote { float: right; width: 150px; }
+	
+	
+
+#menu { height: 35px; padding: 7px 0 0 50px; clear: both;  margin: 0 0 18px; background: #fff url(images/menubg.gif) repeat-x; }
+
+	#menu li { font-size: 1.1em; display: inline; text-transform: uppercase; }
+
+	#menu li a { margin: 0 63px 0 10px; color: #808080;  }
+	
+	#menu li a.active { color: #3399CC;  }
+
+	#menu li a:hover { color: #3399CC;  }
+	
+
+#menu2 { height: 15px; padding: 0px 0 0 0; clear: both;  margin: 0 0 18px; background: #fff url(images/menubg1.gif) repeat-x; }
+
+	#menu2 li { font-size: 1.0em; display: inline; text-transform: uppercase; }
+
+	#menu2 li a { margin: 0 14px 0 10px; color: #CCCCCC  ;  }
+
+	#menu2 li a:hover { color: #CCCCCC;  }
+	
+	#menu2 li strong { font-size: 100%; color: #666666; }
+
+
+#left { background: #eee;  clear: left; float: left; width: 260px; padding: 10px 15px; margin: 0 0 20px; }
+
+	#left img { margin: 0 0 8px; }
+
+	#left li { list-style: none; }
+
+	#left li a {  color: #787A8F; font-weight: bold; background: url(images/arrow.gif) no-repeat center left; padding: 0 0 0 12px; }
+	
+
+#main_about_us { float: left; width: 940px; margin: 0 0 20px; }
+
+	#main_about_us img { float: left; border: 3px solid #eee; padding: 1px; margin: 0 15px 5px 0; }
+
+	#line { clear: both; padding: 3px; margin: 0 0 15px; background: #fff url(images/smalldot.gif) repeat-x; }
+
+	#ad { float: right; text-align: center; padding: 33px 0 0; width: 250px; border: 3px solid #eee; color: #ccc; height: 50px; margin: 0 0 15px; }
+
+	#shortnews { float: right; width: 250px; }
+
+	.news { border-bottom: 0px solid #eee; padding: 0 0 2px; margin: 0 0 10px;}
+	
+
+#main_archive { float: left; width: 340px; margin: 0 0 20px; }
+
+	#main_archive img { float: left; border: 3px solid #eee; padding: 1px; margin: 0 15px 5px 0; }
+
+	#line { clear: both; padding: 3px; margin: 0 0 15px; background: #fff url(images/smalldot.gif) repeat-x; }
+
+	#ad { float: right; text-align: center; padding: 33px 0 0; width: 250px; border: 3px solid #eee; color: #ccc; height: 50px; margin: 0 0 15px; }
+
+	#shortnews_archive { float: right; width: 565px; }
+
+	.news { border-bottom: 0px solid #eee; padding: 0 0 2px; margin: 0 0 10px;}
+	
+
+#main { float: left; width: 655px; margin: 0 0 20px; }
+
+	#main img { float: left; border: 3px solid #eee; padding: 1px; margin: 0 5px 5px 0; }
+
+	#line { clear: both; padding: 3px; margin: 0 0 15px; background: #fff url(images/smalldot.gif) repeat-x; }
+
+	#ad { float: right; text-align: center; padding: 33px 0 0; width: 250px; border: 3px solid #eee; color: #ccc; height: 50px; margin: 0 0 15px; }
+
+	#shortnews { float: right; width: 260px; }
+
+	.news { border-bottom: 0px solid #eee; padding: 0 0 2px; margin: 0 0 10px;}
+
+	
+
+#right { margin: 0 15px 20px 0; padding: 0 0 0 15px; float: right; width: 620px; text-align: justify; }
+
+.border { clear: both; border-left: 4px solid #ccc; padding: 0 0 0 15px; }
+
+
+.dropshadowskull { -moz-box-shadow: 1px 1px 1px  #999; /* Firefox */ -webkit-box-shadow: 1px 1px 1px  #999; /* Safari/Chrome */
+				 box-shadow: 1px 1px 1px  #999; /* Opera and other CSS3 supporting browsers */ -ms-filter: 		"progid:DXImageTransform.Microsoft.Shadow(Strength=4,	  Direction=135, Color='#999999')";/* IE 8 */ : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');/* IE 5.5 - 7 */ } 
+
+
+.dropshadow { -moz-box-shadow: 3px 3px 4px #999; /* Firefox */ -webkit-box-shadow: 3px 3px 4px #999; /* Safari/Chrome */
+				 box-shadow: 3px 3px 4px #999; /* Opera and other CSS3 supporting browsers */ -ms-filter: 		"progid:DXImageTransform.Microsoft.Shadow(Strength=4,	  Direction=135, Color='#999999')";/* IE 8 */ : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');/* IE 5.5 - 7 */ } 
+
+.dropshadowmap { -moz-box-shadow: 3px 3px 4px #999; /* Firefox */ -webkit-box-shadow: 3px 3px 4px #999; /* Safari/Chrome */
+				 box-shadow: 3px 3px 4px #999; /* Opera and other CSS3 supporting browsers */ -ms-filter: 		"progid:DXImageTransform.Microsoft.Shadow(Strength=4,	  Direction=135, Color='#999999')";/* IE 8 */ : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');/* IE 5.5 - 7 */ } 
+
+#rl { float: left; width: 600px; margin: 0 20px 30px 0; }
+
+#rr { float: right; width: 290px; }
+
+	#rl li, #rr li { list-style: none; border-bottom: 1px solid #eee; padding: 4px; margin: 0; }
+
+	#rl li a, #rr li a { background: #fff url(images/arrow.gif) no-repeat center left; padding: 0 0 0 12px; color: #808080;  }
+
+
+
+#footer { clear: both; padding: 10px; margin: 0 0 15px; font-size: .9em; color: #808080; background: #eee; }
+
+	.links a { font-weight: bold; color: #787A8F; background: #fff; margin: 0 10px 0 0; background: url(images/dot.png) no-repeat center left; padding: 0 0 0 10px; }
+
+	.sponsor { color: red; background: #eee; }
+
+	#footer li { list-style: none; }
+
+	#fl { width: 900px; height: 50px;}
+
+	#fr { float: right; }
+	
